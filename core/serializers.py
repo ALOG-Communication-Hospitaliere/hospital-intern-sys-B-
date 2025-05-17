@@ -7,4 +7,4 @@ class DataSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Data
-        fields = ['data', 'type', 'nom', 'prenom']
+        fields = ['data', 'type',  'patient_nom', 'patient_prenom']
